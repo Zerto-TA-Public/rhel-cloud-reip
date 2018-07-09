@@ -1,6 +1,6 @@
 # RHEL-Cloud-Reip Scripts
-Written by: Zerto
-Updated by: Justin Paul jp@zerto.com
+- Written by: Zerto
+- Updated by: Justin Paul jp@zerto.com
 
 # Description:
 This script is designed to help failover RHEL based machines into 
