@@ -10,6 +10,15 @@ can push the proper IP to the machine.
 This script is meant for machines failing over from vCenter to Azure 
 or AWS.
 
+# Installation:
+This script is
+1. Create a new folder: /tmp/reip
+2. Download or clone https://github.com/Zerto-TA-Public/rhel-cloud-reip then copy all the files to the /tmp/reip directory.
+3. Run:
+..* cd /tmp/reip
+..* chmod +x ./reipinstaller.sh
+..* ./reipinstaller.sh
+
 # Legal Disclaimer: 
 All scripts are provided AS IS without warranty of any kind. 
 The author and Zerto further disclaims all implied warranties including, 
