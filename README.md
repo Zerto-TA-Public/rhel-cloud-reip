@@ -10,6 +10,12 @@ can push the proper IP to the machine.
 This script is meant for machines failing over from vCenter to Azure 
 or AWS.
 
+# Support info:
+- RHEL Versions: 6.7,6.9, 7.0, 7.1, 7.2, 7.3 & 7.4
+- Network settings:
+- Static => DHCP
+- DHCP => DHCP
+
 # Installation:
 This script is
 1. Create a new folder: /tmp/reip
