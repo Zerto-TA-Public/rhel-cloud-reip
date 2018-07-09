@@ -2,7 +2,7 @@
 - Written by: Zerto
 - Updated by: Justin Paul jp@zerto.com
 
-# Description:
+## Description:
 This script is designed to help failover RHEL based machines into 
 Azure or AWS.
 It sets the network adatper to look for DHCP so that the public cloud 
@@ -10,13 +10,13 @@ can push the proper IP to the machine.
 This script is meant for machines failing over from vCenter to Azure 
 or AWS.
 
-# Support info:
+## Support info:
 - RHEL Versions: 6.7,6.9, 7.0, 7.1, 7.2, 7.3 & 7.4
 - Network settings:
 - Static => DHCP
 - DHCP => DHCP
 
-# Installation:
+## Installation:
 This script is
 1. Create a new folder: /tmp/reip
 2. Download or clone https://github.com/Zerto-TA-Public/rhel-cloud-reip then copy all the files to the /tmp/reip directory.
@@ -24,7 +24,7 @@ This script is
 4. Run: chmod +x ./reipinstaller.sh
 5. Run: ./reipinstaller.sh
 
-# Legal Disclaimer: 
+## Legal Disclaimer: 
 All scripts are provided AS IS without warranty of any kind. 
 The author and Zerto further disclaims all implied warranties including, 
 without limitation, any implied warranties of merchantability or of 
