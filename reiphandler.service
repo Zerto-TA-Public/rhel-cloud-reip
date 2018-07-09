@@ -1,0 +1,10 @@
+[Unit]
+Description=Zerto ReIP handler for RHEL
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+ExecStart=/etc/init.d/reiphandler start
+ExecStop=/etc/init.d/reiphandler stop
+
