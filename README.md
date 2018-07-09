@@ -14,10 +14,9 @@ or AWS.
 This script is
 1. Create a new folder: /tmp/reip
 2. Download or clone https://github.com/Zerto-TA-Public/rhel-cloud-reip then copy all the files to the /tmp/reip directory.
-3. Run:
-..1. cd /tmp/reip
-..2. chmod +x ./reipinstaller.sh
-..3. ./reipinstaller.sh
+3. Run: cd /tmp/reip
+4. Run: chmod +x ./reipinstaller.sh
+5. Run: ./reipinstaller.sh
 
 # Legal Disclaimer: 
 All scripts are provided AS IS without warranty of any kind. 
